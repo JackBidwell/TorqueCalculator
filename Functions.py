@@ -17,6 +17,11 @@ def MotorTorque(wheelTorque, input, output):
   # You can find the torque being applied to the input (motor gear) by multiplying the wheel torque by the inverse of the gear ratio
   motorTorque = wheelTorque * (input/output)
 
+def OutPutRPM(inputRPM, gearRatio):
+  outputRPM = inputRPM * gearRatio
+
 def Speed(tireCircumfrance, outputRPM):
   # The output RPM, how many times the tire is rotating per minute * 60 will give you a speed, the unit is based on how you entered the rest of the information.
   speed = tireCircumfrance*outputRPM*60
+
+
