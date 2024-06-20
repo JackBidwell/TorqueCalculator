@@ -1,0 +1,7 @@
+In order to calculate the torque of a two gear system such as a driving gear and a wheel gear in a car. There are a few steps to achieve:
+
+1. The circumfrance of both gears. The circumfrance (2piR) is dirececty proportional to the number of teeth on a gear.
+
+2. The force acting on the input(driving gear) The force and size of the input(driving) gear will give us the torque produced in our output(driven) gear
+
+3. A gear ratio is the ration of teeth (circumfrance) of the driven:driver so given the radius(moment arm) of a gear, we can determien 
