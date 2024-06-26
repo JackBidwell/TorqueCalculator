@@ -1,6 +1,6 @@
 import math
-def circumfrance(radius):
-  circumfrance = radius(math.pi)
+def Circumfrance(radius):
+  circumfrance = radius*(2*(math.pi))
   return circumfrance
 
 def GearRaitio(input, output):
