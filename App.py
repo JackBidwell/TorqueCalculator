@@ -13,4 +13,8 @@ outputGear = int(input("What is the raidus of your output gear (the gear conncte
 inputGear = Circumfrance(inputGear)
 outputGear = Circumfrance(outputGear)
 
-print(inputGear)
+gearRatio = GearRaitio(inputGear, outputGear)
+
+wheelTorque = WheelTorque(engineTorque, gearRatio)
+
+print(wheelTorque)
